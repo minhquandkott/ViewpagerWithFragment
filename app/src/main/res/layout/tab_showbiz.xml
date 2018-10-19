@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:weightSum="4">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="20dp">
+          <ImageView
+              android:id="@+id/img1"
+              android:layout_width="wrap_content"
+              android:layout_height="256dp"
+              android:src="@drawable/ngoctrinh_hoangkieu"/>
+          <TextView
+              android:layout_below="@+id/img1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="HOT:HOÀNG KIỀU CHIA TAY NGỌC TRINH"
+              android:textColor="@color/red"
+              android:textSize="19dp"
+              android:layout_centerHorizontal="true"/>
+      </RelativeLayout>
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="10dp"
+          android:layout_weight="1">
+          <ImageView
+              android:id="@+id/img2"
+              android:layout_width="150dp"
+              android:layout_height="150dp"
+              android:src="@drawable/ngoctrinh" />
+          <TextView
+              android:layout_toRightOf="@+id/img2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Ngọc Trinh sau chia tay"
+              android:textSize="20dp"
+              android:layout_centerVertical="true"/>
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="10dp"
+          android:layout_weight="1">
+          <ImageView
+              android:id="@+id/img3"
+              android:layout_width="150dp"
+              android:layout_height="150dp"
+              android:src="@drawable/ngoctrinh2" />
+          <TextView
+              android:layout_toRightOf="@+id/img3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Album mới của Ngọc Trinh"
+              android:textSize="20dp"
+              android:layout_centerVertical="true"/>
+      </RelativeLayout>
+
+  </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

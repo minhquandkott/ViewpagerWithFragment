@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aoe1"
+                android:text="KHAI MẠC AOE Việt-Trung 2018"
+                android:layout_centerHorizontal="true"
+                android:textSize="19dp"/>
+
+            <ImageView
+                android:id="@+id/aoe1"
+                android:layout_width="wrap_content"
+                android:layout_height="256dp"
+                android:src="@drawable/aoe1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/chimse"
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:src="@drawable/csdn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/chimse"
+                android:text="Chim Sẻ Đi Nắng vs Shenlong"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
